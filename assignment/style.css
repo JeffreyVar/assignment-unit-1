@@ -1,11 +1,61 @@
 /* Give your page a fun background color */
 
+html, body {
+    font-family: Courier;
+    background-color: #021e36;
+    margin: 0;
+    padding: 0;
+  }  
+
 /* Make the header and footer a different color from the background */
 
 /* Align the h1 containing your name in the center of the header*/
 
+header {
+    color: #D6DBDF;
+    background-color:rgba(64, 63, 63, 0.54);  
+    font-size: 30px;
+    text-align: center;
+    padding: 3px;
+}
+
 /* Make your p tag a different color and italic */
 
+p {
+    font-style: italic;
+    color: #D6DBDF;
+    background-color:rgba(64, 63, 63, 0.54); 
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.content {
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    color: #D6DBDF;
+    text-align: center;
+}
+
 /* Put a border around your image */
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 75%;
+    border: 8px solid;
+    border-color:rgba(64, 63, 63, 0.54);
+}
+
+ul {
+    text-align: left;
+    color: #c4def2;
+    list-style-type: none;
+    margin: 60px;
+    margin-bottom: 30px;
+    padding: 0;
+}
 
 /* Change the font-family of your list */
