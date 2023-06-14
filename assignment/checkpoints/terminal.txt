@@ -31,6 +31,12 @@
 
 # 8 - Why would you run the command 'git status'?
 
+    This allows us to see what changes have been made to our file. It can also tell us that are files are in the staging area and ready to commit (after running "git add .").
+
 # 9 - What does the command 'git add .' do?
 
+    This saves our changes, logs them into git, and gets our file in the staging area.
+
 # 10 - What is the command to push your committed changes to your repo on GitHub?
+
+    git push origin main
